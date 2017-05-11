@@ -1,0 +1,36 @@
+doctype html
+html(long='es')
+head
+meta(charset='utf-8')
+title Atributos en PUG
+body
+h1 Atributos en PUG
+//Atributos - Control de Espacios ( | )
+nav
+  menu
+    |
+    |
+    a.link#opt1 Option 1
+    |
+    |
+    a.link#opt2 Option 2
+    |
+    |
+// Atributos en Linea
+a(href='#',class='link',target='_blank') Enlace 1
+//Atributos en Bloque
+a(href='#'
+class='link'
+target='_blank') Enlace 2
+//Atributos Estilos
+p(style='background-color: crimson; color white; padding: 10px') Lorem Ipsum Dolor
+p(style='backgorund-color: peru; color: yellow; padding: 10px') Lorem Ipsum Dolor
+// Atributos Clase
+ul
+  li(class='rojo mayuscula cursiva') Elemento de Lista
+  li.azul.minuscula.normal Elemento de Lista
+  //Variable de Tipo Arreglo
+  -var clases = ['amarillo','azul','rojo']
+  li(class=clases) Elemento de Lista
+
+
