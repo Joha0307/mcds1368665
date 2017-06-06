@@ -1,0 +1,23 @@
+body {
+	background-color: teal;
+	color: white
+	font: 16px Arial
+	h1 {
+		text.aling: center
+	}
+	hr {
+		border: 1px solid white
+	}
+	section.box {
+		background-color: #7f0c25
+		padding: 40px
+		margin: 20px auto
+		opacity: 0.4
+		width: 200px	
+			transition: all 0.5s	
+			&:hover {
+			opacity: 1
+			transform: scale(1.2) rotate(45deg);
+		}
+	}
+}	
