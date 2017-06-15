@@ -1,0 +1,29 @@
+body {
+  font-size: 16px;
+  font-family: verdana; }
+
+menu {
+  background-color: #006a6a;
+  padding: 10px;
+  margin: 20px auto;
+  width: 200px; }
+  menu ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px; }
+    menu ul li {
+      background-color: #005454;
+      color: #85C39E;
+      padding: 0px;
+      margin-bottom: 4px; }
+      menu ul li:hover {
+        background-color: #00a9a9;
+        color: #fff;
+        cursor: pointer;
+        -webkit-transform: translate(8px);
+        -ms-transform: translate(8px);
+        transform: translate(8px); }
+      menu ul li:first-child:hover {
+        background-color: crimson; }
+      menu ul li:last-child:hover {
+        cursor: help; }

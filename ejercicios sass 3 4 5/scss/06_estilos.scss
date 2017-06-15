@@ -1,0 +1,24 @@
+@import 'colors','fonts';
+
+:root{
+	background:-moz-linear-gradient(top, $color-fondo2, $color-fondo1);
+	height: 100vh;
+}
+
+button {
+	border: none;
+	box-shadow: -4px -4px 12px rgba(255, 255 ,255, .8),
+				4px 4px 12 px rgba(0, 0, 0, .8);
+	background: -moz-linear-gradient(left, $color-boton1, $color-boton2);
+	color: $color-texto;
+	font-size: 2.6em;
+	font-family: $fuente;
+	display: block;
+	margin: 80px auto;
+	padding: 40px;
+	width: 400px;
+	&:hover{
+		cursor: pointer;
+		background: -moz-linear-gradient(right, $color-boton1, $color-boton2);
+	}
+}

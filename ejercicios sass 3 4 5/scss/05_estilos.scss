@@ -1,0 +1,20 @@
+$ancho: 400px;
+$alto: 200px;
+$color-texto: #fff;
+$color-fondo: #0a0;
+$tipo-letra:Arial Verdana Serif;
+$redondo:100%;
+body{
+	font-family:$tipo-letra;
+}
+
+h1{
+	background-color: $color-fondo;
+	border-radius: $redondo;
+	color: $color-texto - #111;
+	height:$alto/2;
+	margin: 0px auto;
+	padding:(10px + 4px);
+	text-align:center;
+	width:$ancho*2;
+}

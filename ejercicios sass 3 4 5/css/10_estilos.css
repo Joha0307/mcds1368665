@@ -1,0 +1,9 @@
+body {
+  font: 16px Tahoma;
+  color: #444; }
+
+section {
+  border: 1px solid #aaa;
+  padding: 40px;
+  margin: 10px;
+  width: 200px; }
